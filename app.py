@@ -12,4 +12,4 @@ def hello():
 	return html.format(name=os.getenv("NAME", "world"), hostname=host_name, ip=host_ip)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=8090)
